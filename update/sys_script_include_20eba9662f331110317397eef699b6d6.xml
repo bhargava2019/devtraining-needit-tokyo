@@ -4,7 +4,7 @@
         <active>true</active>
         <api_name>x_58872_needit.GetEmailAddress</api_name>
         <caller_access/>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <description>Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.</description>
         <name>GetEmailAddress</name>
         <script><![CDATA[var GetEmailAddress = Class.create();
